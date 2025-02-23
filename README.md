@@ -79,3 +79,10 @@ It should be accessible on both desktop and mobile devices.
 ## 6. Appendices
 References to compliance standards (GDPR, FERPA)
 User interface mockups (to be designed later)
+
+# Some Useful Commands
+pip3 freeze > requirements.txt 
+## For Creating Django Project
+django-admin startproject LMS_Admin . 
+## For Running Python Server
+python manage.py runserver
