@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log Viewer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #555;
+        }
+        .log-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .log-card {
+            background: #272822;
+            color: #f8f8f2;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #444;
+            white-space: pre-wrap;
+            line-height: 1.5;
+        }
+        .INFO {
+            border-left: 5px solid #4CAF50; /* Green for INFO */
+            color: #4CAF50; /* Green for INFO */
+        }
+        .WARN {
+            border-left: 5px solid #FFC107; /* Yellow for WARN */
+            color: #FFC107; /* Yellow for WARN */
+        }
+        .ERROR {
+            border-left: 5px solid #ff1100; /* Red for ERROR */
+            color: #ff1100; /* Red for ERROR */
+        }
+        .DEBUG {
+            border-left: 5px solid #03A9F4; /* Blue for DEBUG */
+            color: #03A9F4; /* Blue for DEBUG */
+        }
+        .CRITICAL {
+            border-left: 5px solid #858585; /* Grey for CRITICAL */
+            color: #858585; /* Grey for CRITICAL */
+        }
+    </style>
+</head>
+<body>
+    <h1>Log Viewer</h1>
+    <div class="log-container" id="logContainer">Loading...</div>
+    <script>
+        const logContainer = document.getElementById('logContainer');
+
+        // Function to load and display logs
+        function loadLogs() {
+            const timestamp = new Date().getTime(); // Get unique timestamp
+            fetch(`Logs.txt?t=${timestamp}`) // Append timestamp to prevent caching
+                .then(response => {
+                    if (!response.ok) throw new Error("Failed to load the log file.");
+                    return response.text();
+                })
+                .then(text => {
+                    logContainer.innerHTML = ''; // Clear existing logs
+
+                    const logLines = text.split('\n');
+
+                    logLines.forEach(line => {
+                        if (line.trim() === '') return; // Skip empty lines
+
+                        const logCard = document.createElement('div');
+                        logCard.className = 'log-card';
+
+                        // Add severity-based styling
+                        if (line.includes('INFO')) {
+                            logCard.classList.add('INFO');
+                        } else if (line.includes('WARN')) {
+                            logCard.classList.add('WARN');
+                        } else if (line.includes('ERROR')) {
+                            logCard.classList.add('ERROR');
+                        } else if (line.includes('DEBUG')) {
+                            logCard.classList.add('DEBUG');
+                        } else if (line.includes('CRITICAL')) {
+                            logCard.classList.add('CRITICAL');
+                        }
+
+                        logCard.textContent = line;
+                        logContainer.appendChild(logCard);
+                    });
+                })
+                .catch(error => {
+                    logContainer.innerHTML = `<div class="log-card ERROR">Error: ${error.message}</div>`;
+                });
+        }
+
+        // Automatically refresh logs every 1 second
+        setInterval(loadLogs, 1000);
+
+        // Initial load
+        loadLogs();
+    </script>
+</body>
+</html>

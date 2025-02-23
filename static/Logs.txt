@@ -1,0 +1,93 @@
+DEBUG:python_assets.Logger:This is Login Page
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Not Found
+DEBUG:python_assets.Logger:This is Login Page
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Not Found
+DEBUG:python_assets.Logger:This is Login Page
+DEBUG:python_assets.Logger:This is Login Page
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:This is Signup Page
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Not Found
+DEBUG:python_assets.Logger:This is Login Page
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\views.py changed, reloading.
+DEBUG:python_assets.Logger:This is Login Page
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is not Admin, Mentor or Student
+ERROR:django.request:Internal Server Error: /login/POST
+Traceback (most recent call last):
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: The view LMS_Admin.views.login_post didn't return an HttpResponse object. It returned None instead.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\views.py changed, reloading.
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is not Admin, Mentor or Student
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Admin
+DEBUG:python_assets.Logger:This is Login Page
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Mentor
+DEBUG:python_assets.Logger:This is Mentor Page
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Student
+DEBUG:python_assets.Logger:This is Student Page
+DEBUG:python_assets.Logger:This is Login Page
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is not Admin, Mentor or Student
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Admin
+DEBUG:python_assets.Logger:This is Login Page
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Mentor
+DEBUG:python_assets.Logger:This is Mentor Page
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Student
+DEBUG:python_assets.Logger:This is Student Page

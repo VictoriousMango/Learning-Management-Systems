@@ -1,0 +1,72 @@
+<!-- Beautiful Login Page for LMS -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS - Login</title>
+    {% comment %} <link rel="stylesheet" href="styles.css"> {% endcomment %}
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            font-family: Arial, sans-serif;
+        }
+        .login-container {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 320px;
+            text-align: center;
+            animation: fadeIn 1s ease-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .login-container h1 {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 1.5rem;
+        }
+        .login-container input, .login-container select, .login-container button {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        .login-container button {
+            background: #667eea;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .login-container button:hover {
+            background: #5646b0;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <form id="loginForm" method="POST" action="/login/POST">
+            {% csrf_token %}
+            <h1>Welcome to LMS</h1>
+            <input type="text" id="userName" name="userName" placeholder="Enter your email" required>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <select id="role">
+                <option value="admin">Admin</option>
+                <option value="incharge">Course Incharge</option>
+                <option value="learner">Learner</option>
+            </select>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
