@@ -23,9 +23,8 @@ urlpatterns = [
     path("", views.login),
     path("login/", views.login),
     path("login/POST", views.login_post),
-    path("admin/", views.Admin),
-    path("mentor/", views.Mentor),
-    path("student/", views.Student),
+    path("Mentor/", include('Mentor.urls')),
+    path("Learner/",include('Learner.urls')),
     path("sign_up/", views.sign_up, name="sign_up"),
     path('administration/', include('administration.urls'))
 ]

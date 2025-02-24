@@ -1,0 +1,45 @@
+{% extends "../base.html" %}
+
+{% block base %}
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Learner Portal</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="../BrowseCourses">Browse Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../MyCourses">My Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Assessments">Assessments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Notifications">Notifications</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+{% block LearnerBase %}{% endblock LearnerBase %}
+{% comment %} <script>
+    const searchInput = document.getElementById('search');
+    const sectionCards = document.querySelectorAll('.section-card');
+
+    searchInput.addEventListener('input', () => {
+        const query = searchInput.value.toLowerCase();
+        sectionCards.forEach(card => {
+            const content = card.textContent.toLowerCase();
+            card.style.display = content.includes(query) ? 'block' : 'none';
+        });
+    });
+</script> {% endcomment %}
+{% endblock base %}

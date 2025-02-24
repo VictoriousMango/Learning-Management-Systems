@@ -1,0 +1,69 @@
+{% extends "./Navbar.html" %}
+
+{% block LearnerBase %}
+<div class="container mt-5 text-center">
+    <h1 class="mb-4">Welcome to Your Learning Hub!</h1>
+
+    <div class="row g-4">
+        <!-- Courses Card -->
+        <div class="col-md-4">
+            <div class="card shadow-lg border-0">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="Courses">
+                <div class="card-body">
+                    <h5 class="card-title">My Courses</h5>
+                    <p class="card-text">Explore and continue your enrolled courses.</p>
+                    <a href="/learner/courses" class="btn btn-primary">View Courses</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Assessments Card -->
+        <div class="col-md-4">
+            <div class="card shadow-lg border-0">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="Assessments">
+                <div class="card-body">
+                    <h5 class="card-title">Assessments</h5>
+                    <p class="card-text">Track and attempt your pending assessments.</p>
+                    <a href="/learner/assessments" class="btn btn-primary">View Assessments</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Notifications Card -->
+        <div class="col-md-4">
+            <div class="card shadow-lg border-0">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="Notifications">
+                <div class="card-body">
+                    <h5 class="card-title">Notifications</h5>
+                    <p class="card-text">Stay updated with the latest announcements.</p>
+                    <a href="/learner/notifications" class="btn btn-primary">View Notifications</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        font-family: 'Arial', sans-serif;
+    }
+    h1 {
+        color: #fff;
+    }
+    .card {
+        transition: transform 0.3s;
+    }
+    .card:hover {
+        transform: translateY(-10px);
+    }
+    .btn-primary {
+        background-color: #667eea;
+        border: none;
+        transition: background-color 0.3s;
+    }
+    .btn-primary:hover {
+        background-color: #5646b0;
+    }
+</style>
+{% endblock LearnerBase %}

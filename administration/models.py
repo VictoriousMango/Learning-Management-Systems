@@ -18,6 +18,7 @@ class Users(models.Model):
 class Courses(models.Model):
     course_id = models.AutoField(primary_key=True)
     title = models.CharField(max_length=100)
+    LandingPicture = models.CharField(max_length=100, default="Null")
     description = models.TextField()
     course_incharge_id = models.ForeignKey(Users, on_delete=models.CASCADE)
 

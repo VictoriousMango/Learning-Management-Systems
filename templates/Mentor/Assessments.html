@@ -1,0 +1,65 @@
+{% extends "./Navbar.html" %}
+
+{% block MentorBase %}
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Sample Assessment</h1>
+
+    <form method="post" action="404.html">
+        {% csrf_token %}
+        
+        <!-- Question 1 -->
+        <div class="card mb-4">
+            <div class="card-header bg-primary text-white">Question 1</div>
+            <div class="card-body">
+                <p>What is the capital of France?</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q1" value="Paris" id="q1-option1" required>
+                    <label class="form-check-label" for="q1-option1">Paris</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q1" value="London" id="q1-option2">
+                    <label class="form-check-label" for="q1-option2">London</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q1" value="Berlin" id="q1-option3">
+                    <label class="form-check-label" for="q1-option3">Berlin</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="card mb-4">
+            <div class="card-header bg-primary text-white">Question 2</div>
+            <div class="card-body">
+                <p>What does CPU stand for?</p>
+                <input type="text" class="form-control" name="q2" placeholder="Your answer" required>
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="card mb-4">
+            <div class="card-header bg-primary text-white">Question 3</div>
+            <div class="card-body">
+                <p>Select the correct programming languages:</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="q3" value="Python" id="q3-option1">
+                    <label class="form-check-label" for="q3-option1">Python</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="q3" value="HTML" id="q3-option2">
+                    <label class="form-check-label" for="q3-option2">HTML</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="q3" value="C++" id="q3-option3">
+                    <label class="form-check-label" for="q3-option3">C++</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="text-center">
+            <button type="submit" class="btn btn-success btn-lg">Submit Assessment</button>
+        </div>
+    </form>
+</div>
+{% endblock MentorBase %}

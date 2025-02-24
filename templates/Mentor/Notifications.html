@@ -1,0 +1,54 @@
+{% extends "./Navbar.html" %}
+
+{% block MentorBase %}
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Notifications</h1>
+
+    <div class="list-group">
+        <!-- Notification 1 -->
+        <div class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+            <div>
+                <h5 class="mb-1">New Assessment Available</h5>
+                <p class="mb-1">The assessment on "Data Structures" is now available. Complete it before the deadline.</p>
+                <small class="text-muted">2 hours ago</small>
+            </div>
+            <button class="btn btn-primary btn-sm">View</button>
+        </div>
+
+        <!-- Notification 2 -->
+        <div class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+            <div>
+                <h5 class="mb-1">Submission Graded</h5>
+                <p class="mb-1">Your submission for "Machine Learning Basics" has been graded. Check your score.</p>
+                <small class="text-muted">1 day ago</small>
+            </div>
+            <button class="btn btn-primary btn-sm">View</button>
+        </div>
+
+        <!-- Notification 3 -->
+        <div class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+            <div>
+                <h5 class="mb-1">Course Update</h5>
+                <p class="mb-1">New materials have been added to the "Python Programming" course.</p>
+                <small class="text-muted">3 days ago</small>
+            </div>
+            <button class="btn btn-primary btn-sm">View</button>
+        </div>
+
+        <!-- Notification 4 -->
+        <div class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+            <div>
+                <h5 class="mb-1">Reminder: Upcoming Deadline</h5>
+                <p class="mb-1">Don't forget to submit your "Deep Learning Project" before the deadline on March 1st.</p>
+                <small class="text-muted">5 days ago</small>
+            </div>
+            <button class="btn btn-primary btn-sm">View</button>
+        </div>
+
+        <!-- No notifications message (optional) -->
+        <div class="list-group-item text-center text-muted" id="noNotifications" style="display: none;">
+            No new notifications
+        </div>
+    </div>
+</div>
+{% endblock MentorBase %}
