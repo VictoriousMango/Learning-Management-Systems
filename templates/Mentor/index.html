@@ -1,0 +1,77 @@
+{% extends "./Navbar.html" %}
+
+{% block MentorBase %}
+<div class="container mt-5 text-center">
+    <h1 class="mb-4">Welcome Mentor!</h1>
+
+    <div class="row g-4">
+        <!-- My Courses Card -->
+        <div class="col-md-4">
+            <div class="card shadow-lg border-0">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="My Courses">
+                <div class="card-body">
+                    <h5 class="card-title">My Courses</h5>
+                    <p class="card-text">Manage and update your created courses.</p>
+                    <a href="/mentor/courses" class="btn btn-primary">Manage Courses</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Create New Course Card -->
+        <div class="col-md-4">
+            <div class="card shadow-lg border-0">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="Create Course">
+                <div class="card-body">
+                    <h5 class="card-title">Create Course</h5>
+                    <p class="card-text">Design and publish a new course.</p>
+                    <a href="/mentor/create-course" class="btn btn-success">Create Course</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Notifications Card -->
+        <div class="col-md-4">
+            <div class="card shadow-lg border-0">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="Notifications">
+                <div class="card-body">
+                    <h5 class="card-title">Notifications</h5>
+                    <p class="card-text">Send and view notifications to learners.</p>
+                    <a href="/mentor/notifications" class="btn btn-primary">View Notifications</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        font-family: 'Arial', sans-serif;
+    }
+    h1 {
+        color: #fff;
+    }
+    .card {
+        transition: transform 0.3s;
+    }
+    .card:hover {
+        transform: translateY(-10px);
+    }
+    .btn-primary {
+        background-color: #667eea;
+        border: none;
+        transition: background-color 0.3s;
+    }
+    .btn-primary:hover {
+        background-color: #5646b0;
+    }
+    .btn-success {
+        background-color: #28a745;
+        border: none;
+        transition: background-color 0.3s;
+    }
+    .btn-success:hover {
+        background-color: #218838;
+    }
+</style>
+{% endblock MentorBase %}

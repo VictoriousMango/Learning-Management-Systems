@@ -91,3 +91,622 @@ DEBUG:python_assets.Logger:This is POST Request
 DEBUG:python_assets.Logger:User Found
 DEBUG:python_assets.Logger:User is Student
 DEBUG:python_assets.Logger:This is Student Page
+DEBUG:python_assets.Logger:This is Login Page
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Admin
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\urls.py changed, reloading.
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:python_assets.Logger:This is Login Page
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Student
+WARNING:django.request:Not Found: /student
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\views.py changed, reloading.
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Student
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\views.py changed, reloading.
+DEBUG:python_assets.Logger:This is Login Page
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Mentor
+WARNING:django.request:Not Found: /mentor
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\views.py changed, reloading.
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Mentor
+WARNING:django.request:Not Found: /Mentor
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\views.py changed, reloading.
+DEBUG:python_assets.Logger:This is Login Page
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Mentor
+WARNING:django.request:Not Found: /Mentor
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Student
+WARNING:django.request:Not Found: /Learner
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Admin
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\views.py changed, reloading.
+DEBUG:python_assets.Logger:This is Login Page
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Mentor
+WARNING:django.request:Not Found: /mentor
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\urls.py changed, reloading.
+WARNING:django.request:Not Found: /Mentor
+WARNING:django.request:Not Found: /Mentor/
+DEBUG:python_assets.Logger:This is Home Page of Administration
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\urls.py changed, reloading.
+WARNING:django.request:Not Found: /learner
+ERROR:django.request:Internal Server Error: /Mentor/CreateNew/
+Traceback (most recent call last):
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        template_name,
+        ^^^^^^^^^^^^^^
+        skip=history,
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: Navbar.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py", line 5, in CreateNew
+    return render(request, 'Mentor/CreateNew.html')
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\backends\django.py", line 109, in render
+    reraise(exc, self.backend)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\backends\django.py", line 130, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: Navbar.html
+ERROR:django.request:Internal Server Error: /Mentor/CreateNew/
+Traceback (most recent call last):
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        template_name,
+        ^^^^^^^^^^^^^^
+        skip=history,
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: Mentor/Mentor/Navbar.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py", line 5, in CreateNew
+    return render(request, 'Mentor/CreateNew.html')
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\backends\django.py", line 109, in render
+    reraise(exc, self.backend)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\backends\django.py", line 130, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: Mentor/Mentor/Navbar.html
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\views.py changed, reloading.
+DEBUG:python_assets.Logger:This is Login Page
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Mentor
+WARNING:django.request:Not Found: /Mentor/Mentor/CreateNew
+WARNING:django.request:Not Found: /Mentor/Mentor/CreateNew
+WARNING:django.request:Not Found: /Mentor/Mentor/CreateNew
+WARNING:django.request:Not Found: /Mentor/Mentor/CreateNew
+WARNING:django.request:Not Found: /Mentor/Mentor/CreateNew
+WARNING:django.request:Not Found: /Mentor/Mentor/MyCoureses
+WARNING:django.request:Not Found: /Mentor/CreateNew/MyCoureses
+WARNING:django.request:Not Found: /Mentor/CreateNew/MyCoureses
+ERROR:django.request:Internal Server Error: /Mentor/MyCoureses/
+Traceback (most recent call last):
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py", line 11, in MyCoureses
+    return render(request, 'Mentor/MyCoureses.html')
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: Mentor/MyCoureses.html
+ERROR:django.request:Internal Server Error: /Mentor/MyCoureses/
+Traceback (most recent call last):
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py", line 11, in MyCoureses
+    return render(request, 'Mentor/MyCoureses.html')
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: Mentor/MyCoureses.html
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py changed, reloading.
+WARNING:django.request:Not Found: /Mentor/CreateNew/CreateNew
+WARNING:django.request:Not Found: /Mentor/MyCoureses/Assessments
+WARNING:django.request:Not Found: /MyCoureses
+WARNING:django.request:Not Found: /CreateNew
+DEBUG:python_assets.Logger:This is Login Page
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Student
+WARNING:django.request:Not Found: /Learner
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\LMS_Admin\urls.py changed, reloading.
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Student
+WARNING:django.request:Not Found: /Learner/Learner/BrowseCourses
+DEBUG:python_assets.Logger:This is Login Page
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Mentor
+WARNING:django.request:Not Found: /CreateNew
+ERROR:django.request:Internal Server Error: /Mentor/MyCoureses/
+Traceback (most recent call last):
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py", line 11, in MyCoureses
+    return render(request, 'Mentor/MyCourses.html')
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'course_page' not found. 'course_page' is not a valid view function or pattern name.
+ERROR:django.request:Internal Server Error: /Mentor/Assessments/
+Traceback (most recent call last):
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py", line 14, in Assessments
+    return render(request, 'Mentor/Assessments.html')
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'submit_assessment' not found. 'submit_assessment' is not a valid view function or pattern name.
+DEBUG:python_assets.Logger:This is Login Page
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Student
+WARNING:django.request:Not Found: /Learner/Learner/BrowseCourses
+WARNING:django.request:Not Found: /Learner/BrowseCourses/Learner/MyCourses
+WARNING:django.request:Not Found: /Learner/BrowseCourses/Learner/BrowseCourses
+ERROR:django.request:Internal Server Error: /Learner/Assessments/
+Traceback (most recent call last):
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\views.py", line 14, in Assessments
+    return render(request, "Learner/Assessments.html")
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'submit_assessment' not found. 'submit_assessment' is not a valid view function or pattern name.
+DEBUG:python_assets.Logger:This is Login Page
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py changed, reloading.
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Mentor
+ERROR:django.request:Internal Server Error: /Mentor/
+Traceback (most recent call last):
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py", line 5, in welcome
+    return redirect('index')
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Programs\Temp Working Area\Learning-Management-Systems\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'index' not found. 'index' is not a valid view function or pattern name.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py changed, reloading.
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Mentor
+WARNING:django.request:Not Found: /Mentor/index/
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py changed, reloading.
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Mentor
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py changed, reloading.
+DEBUG:python_assets.Logger:This is Login Page
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Mentor
+DEBUG:python_assets.Logger:This is Login Page
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Student
+WARNING:django.request:Not Found: /Learner/Welcome/
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py changed, reloading.
+DEBUG:python_assets.Logger:This is Login Page
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Student
+WARNING:django.request:Not Found: /Learner/Welcome/
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\urls.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Learner\views.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\Mentor\views.py changed, reloading.
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Student
+DEBUG:python_assets.Logger:This is Login Page
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Mentor
+DEBUG:python_assets.Logger:This is Login Page
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Not Found
+DEBUG:python_assets.Logger:This is Login Page
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Admin
+DEBUG:python_assets.Logger:This is Login Page
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\administration\models.py changed, reloading.
+INFO:django.utils.autoreload:E:\Programs\Temp Working Area\Learning-Management-Systems\administration\models.py changed, reloading.
+DEBUG:python_assets.Logger:This is Login Check Page
+DEBUG:python_assets.Logger:This is POST Request
+DEBUG:python_assets.Logger:User Found
+DEBUG:python_assets.Logger:User is Admin
+DEBUG:python_assets.Logger:This is Login Page

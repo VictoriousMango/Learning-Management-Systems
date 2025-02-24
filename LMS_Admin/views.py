@@ -23,10 +23,10 @@ def login_post(request):
                 return redirect("/admin")
             elif user.role == "Mentor":
                 logger.debug("User is Mentor")
-                return redirect("/mentor")
+                return redirect("/Mentor")
             elif user.role == "Student":
                 logger.debug("User is Student")
-                return redirect("/student")
+                return redirect("/Learner")
             else:
                 logger.debug("User is not Admin, Mentor or Student")
                 return HttpResponse("User is not Admin, Mentor or Student")
