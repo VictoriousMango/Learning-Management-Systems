@@ -68,11 +68,11 @@ Database: PostgreSQL/MySQL
 ### 4.2 Database Design
 Tables:
 
-Users: (user_id, name, email, role, password)
-Courses: (course_id, title, description, course_incharge_id)
-Enrollments: (enrollment_id, user_id, course_id, status)
-Assessments: (assessment_id, course_id, type, max_score)
-Submissions: (submission_id, user_id, assessment_id, score)
+- Users: (user_id, name, email, role, password)
+- Courses: (course_id, title, description, LandfingPicture, course_incharge_id)
+- Enrollments: (enrollment_id, user_id, course_id, status)
+- Assessments: (assessment_id, course_id, type, max_score)
+- Submissions: (submission_id, user_id, assessment_id, score)
 ## 5. Constraints
 The system must be web-based.
 It should be accessible on both desktop and mobile devices.
