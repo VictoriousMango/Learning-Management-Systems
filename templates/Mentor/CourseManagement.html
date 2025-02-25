@@ -1,0 +1,107 @@
+{% extends "./Navbar.html" %} {% block MentorBase %} {% comment %} Mentors
+course table having columns Course ID, Course Title, Link to go to course page
+{% endcomment %}
+<div class="container mt-5">
+  <h1 class="text-center mb-4">My Courses</h1>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Resource ID</th>
+        <th>Title</th>
+        <th>Link</th>
+        <th>Update</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for key, resource in Resources.items %}
+      <tr>
+        <!-- Update Form -->
+        <form
+          action="../CourseManagement/"
+          method="post"
+          style="display: inline"
+        >
+          {% csrf_token %}
+          <td><input type="text" name="resource_id" value={{ key }} /></td>
+          <td>
+            
+            <input type="text" name="Title" value={{ resource.Title }} />
+          </td>
+          <td>
+            <div class="input-group mb-3">
+                <input type="text" name="link" value={{ resource.link }}
+            />
+            <a href={{ resource.link }} target="_blank" type="button" class="btn btn-outline-info">Show</a>
+            </div>
+          </td>
+          <td>
+            <input type="hidden" name="course_id" value="{{ course_id }}" />
+            <input type="hidden" name="action" value="update" />
+            <button class="btn btn-outline-info" type="submit">Update</button>
+          </td>
+        </form>
+
+        <td>
+          <!-- Delete Form -->
+          <form
+            action="../CourseManagement/"
+            method="post"
+            style="display: inline"
+          >
+            {% csrf_token %}
+            <input type="hidden" name="row_id" value="{{ key }}" />
+            <input type="hidden" name="course_id" value="{{ course_id }}" />
+            <input type="hidden" name="action" value="delete" />
+            <button class="btn btn-outline-danger" type="submit">Delete</button>
+          </form>
+        </td>
+      </tr>
+      {% endfor %}
+
+      <!-- Empty Row for Adding a New Course -->
+      <tr>
+        <form action="../CourseManagement/" method="post">
+          {% csrf_token %}
+          <input type="hidden" name="course_id" value="{{ course_id }}" />
+          <td>
+            <input
+              class="form-control"
+              type="text"
+              name="resource_id"
+              placeholder="Enter Resource ID"
+              required
+            />
+          </td>
+          <td>
+            <input
+              class="form-control"
+              type="text"
+              name="Title"
+              placeholder="Enter Resource Title"
+              required
+            />
+          </td>
+          <td>
+            <input
+              class="form-control"
+              type="text"
+              name="link"
+              placeholder="Enter Resource Link"
+              required
+            />
+          </td>
+          <td>
+            <input type="hidden" name="action" value="create" />
+            <button class="btn btn-outline-primary" type="submit">
+              Add Course
+            </button>
+          </td>
+        </form>
+      </tr>
+    </tbody>
+  </table>
+
+  {% endblock MentorBase %}
+</div>

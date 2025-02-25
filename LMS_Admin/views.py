@@ -1,4 +1,6 @@
 # Manulay Created
+# from rest_framework_simplejwt.tokens import RefreshToken
+# from rest_framework.response import Response
 from django.shortcuts import render, HttpResponse, redirect
 from django.contrib.auth import authenticate
 from python_assets.Logger import logger
@@ -17,6 +19,7 @@ def login_post(request):
         password = request.POST.get("password")
         try:
             user = Users.objects.get(user_id=userName, password=password)
+            request.session['user_id'] = user.user_id
             logger.debug("User Found")
             if user.role == "Admin":
                 logger.debug("User is Admin")
@@ -24,12 +27,12 @@ def login_post(request):
             elif user.role == "Mentor":
                 logger.debug("User is Mentor")
                 return redirect("/Mentor")
-            elif user.role == "Student":
-                logger.debug("User is Student")
+            elif user.role == "Learner":
+                logger.debug("User is Learner")
                 return redirect("/Learner")
             else:
-                logger.debug("User is not Admin, Mentor or Student")
-                return HttpResponse("User is not Admin, Mentor or Student")
+                logger.debug("User is not Admin, Mentor or Learner")
+                return HttpResponse("User is not Admin, Mentor or Learner")
         except Users.DoesNotExist:
             logger.debug("User Not Found")
             return redirect("/login")

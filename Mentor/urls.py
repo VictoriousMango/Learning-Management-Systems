@@ -7,6 +7,7 @@ urlpatterns = [
     path('Welcome/', views.index),
     path('CreateNew/', views.CreateNew),
     path('MyCoureses/', views.MyCoureses),
+    path('CourseManagement/', views.CourseManagement),
     path('Assessments/', views.Assessments),
     path('Notifications/', views.Notifications)
 ]

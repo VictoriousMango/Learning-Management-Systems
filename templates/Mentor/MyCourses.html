@@ -14,27 +14,20 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>1</td>
-                <td>Python Programming</td>
-                <td>
-                    <a href="404.html" class="btn btn-primary">Go to Course</a>
-                </td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Machine Learning Basics</td>
-                <td>
-                    <a href="404.html" class="btn btn-primary">Go to Course</a>
-                </td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Deep Learning Project</td>
-                <td>
-                    <a href="404.html" class="btn btn-primary">Go to Course</a>
-                </td>
-            </tr>
+            {% for course in CourseList %}
+                <tr>
+                    <td>{{course.course_id}}</td>
+                    <td>{{course.title}}</td>
+                    <td>
+                        <form action="../CourseManagement/" method="post">
+                            {% csrf_token %}
+                            <input type="hidden" name="action" value="go_to_course_page">
+                            <input type="hidden" name="course_id" value={{course.course_id}}>
+                            <button type="submit">Go TO Course Page</button>
+                        </form>
+                    </td>
+                </tr>
+            {% endfor %}
         </tbody>
     </table>
 {% endblock MentorBase %}
