@@ -8,6 +8,6 @@ urlpatterns = [
     path('CreateNew/', views.CreateNew),
     path('MyCoureses/', views.MyCoureses),
     path('CourseManagement/', views.CourseManagement),
-    path('Assessments/', views.Assessments),
+    path('Assessments/', views.AssessmentsViewer),
     path('Notifications/', views.Notifications)
 ]

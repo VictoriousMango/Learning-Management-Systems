@@ -46,8 +46,20 @@ def CourseManagement(request):
 
     return render(request, 'Mentor/CourseManagement.html', context=context)
 
-def Assessments(request):
-    return render(request, 'Mentor/Assessments.html')
+def AssessmentsViewer(request):
+    if request.method == 'POST':
+        Assessment = Assessments.objects.get(course_id = request.POST.get('course_id'))
+        context = {
+            'Assessment': Assessment.questions
+        }
+    else:
+        CourseList = Courses.objects.filter(course_incharge_id = request.session["user_id"])
+        logger.debug(CourseList)
+        context = {
+            'CourseList': CourseList
+        }
+    return render(request, 'Mentor/Assessments.html', context=context)
+
 
 def Notifications(request):
     return render(request, 'Mentor/Notifications.html')
